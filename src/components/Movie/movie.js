@@ -40,16 +40,9 @@ function Movie(ele) {
                         </div>
                     </Card.Body>
                 </Card>
-
-
             }
             {
                 <ModalMovie cardInfo={cardInfo} show={show} handleClose={handleClose}/>
-            }
-
-
-            {
-                // !preps.data.length && <div><h2>no data</h2></div>
             }
         </>
     )

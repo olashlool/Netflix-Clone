@@ -6,7 +6,7 @@ import axios from 'axios';
 function Home() {
     const [data, setData] = useState([]);
     const getMovies = async () => {
-        return await axios.get(`https://library-movies.herokuapp.com/trending`)
+        return await axios.get(`${process.env.REACT_APP_BASE_URL}/trending`)
             .then(res => {
                 return res.data;
             }).catch((err) => {

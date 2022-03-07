@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import "./navbar.css"
 
 const Navbar2 = () => {
-  return <div>
-   <Navbar bg="dark" variant="dark">
+  return <div className='fixed'>
+    <Navbar bg="dark" variant="dark">
     <Container>
     <Navbar.Brand to="/">Netflix-Clone</Navbar.Brand>
     <Nav className="me-auto">
@@ -16,5 +16,5 @@ const Navbar2 = () => {
   </Navbar>
   </div>;
 };
-
 export default Navbar2;
+
