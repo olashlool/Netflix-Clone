@@ -9,3 +9,9 @@
 .link:hover {
   background-color: #ccc;
 }
+
+.fixed {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
